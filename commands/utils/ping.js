@@ -1,10 +1,9 @@
 module.exports = {
-    name: 'ping', 
+	name: 'ping', 
 	aliases: ['pingtwo'],
-    args: false, 
+	args: false, 
 	cooldown: 1,
-	args: false,
-    usage: '', 
+	usage: '', 
 	async execute(message, args, client) {
 		message.reply("!Pong")
 	},
