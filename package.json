@@ -1,0 +1,21 @@
+{
+  "name": "yourbot name here",
+  "version": "2.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    ".": "nodemon index.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "discord.js": "latest",
+    "humanize-duration": "^3.25.1",
+    "megadb": "^3.4.0",
+    "moment-timezone": "^0.5.33"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
